@@ -3,7 +3,7 @@ Just a place where I'll drop my python scripts!
 
 # Scripts made
 Python subnet calculator,
-Pthon backup for small folders,
+Python backup for small folders,
 Python point counter (small project for a teacer),
 
 # Future projects
