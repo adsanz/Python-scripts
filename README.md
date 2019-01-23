@@ -3,8 +3,8 @@ This is just a repository with a bunch of python scripts on which I'm hoping to 
 
 # Scripts made
 * Python subnet calculator
-* Python backup for folders (planning on using file hash to compare the backed up file, and make somewhat of an incremental backup)
-* Python point counter (small project for a teacher, which is not over)
+* Python backup (kind of incremental?)
+ - Don't know if should I use filecmp.cmp on the files (byte-to-byte) or just disutils with update=1 is enough...
 * Python macro calculator, for nerds that workout!
 
 # Future projects
