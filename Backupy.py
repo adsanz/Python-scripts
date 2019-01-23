@@ -5,8 +5,9 @@ import zipfile
 
 #copy files to a target folder - creates a logfile which contains the date of the last backup.
 def docopy(source, target_folder):
-    distutils.dir_util.copy_tree(source, target_folder)
-    #future space if I want to make it kind of incremental
+    distutils.dir_util.copy_tree(source, target_folder,update=1)
+    #Delete "update=1" if you want a complete backup
+
 def logfile():
     #This def creates a logfile saving the date and time
     source_logfile = '' #route with the logfile ej: D:\Datos\ASIR\ASIRx\ASIR2-xx\COPIA\logfile.txt
