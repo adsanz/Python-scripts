@@ -18,7 +18,7 @@ and IPchicken or whatismypublicip to retrieve the IP, using bs4 to parse it from
 Note that the script only sends the IP if it has changed it (when the script executes creates a file and saves the current public IP
 then compares if the public IP obtained is the same, if it's the same, the script exits, if it's not the same the script sends the email)
 
-Lastly: this script is intended for sysadmins that need to make remote administration no dynamic IP servers, I am not responsible for
+Lastly: this script is intended for sysadmins that need to make remote administration on dynamic IP servers, I am not responsible for
 any missuse of this script!
 """
 
