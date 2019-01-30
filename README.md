@@ -7,6 +7,7 @@ This is just a repository with a bunch of python scripts on which I'm hoping to 
  - Don't know if should I use filecmp.cmp on the files (byte-to-byte) or just disutils with update=1 is enough...
 * Python macro calculator, for nerds that workout!
 * PublicIPython: find out your public IP and send it to your email, useful for dynamic IP servers at home for example. Using GMAIL smtp server for sending the mail, remember that you need to create a password for applications in order to the script to be used, otherwise GMAIL will reject your connection for more info: https://support.google.com/accounts/answer/185833?hl=es of course if you have your own server just adjust the settings to your needs! ALSO you need bs4 module (beautifulsoup)
+* ChecksumChecker: check the integrity of files recursively on different directories. Useful to check from time to time if files had been modified at some point (made because I plan on using it on a final course project!) - Planning on adding the posibility to check only 1 file or a group of files on a certain directory.
 
 # Future projects
 * Viper: a IDS for IoT --> written in full python3 with web interface made on Flask.
